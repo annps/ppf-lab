@@ -488,3 +488,37 @@
         article#gallery a img {
             width: 200px;
         }
+
+
+                /*GALLERY*/
+        article.contact {
+            text-align: justify;
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            display: flex;
+        }
+
+        article.contact div#cizq, div#cder{
+            width: 50%;
+            margin: auto;
+        }
+
+        article.contact div#cizq form label{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+        }
+
+        article.contact div#cizq form input[type=text], [type=email]{
+            font-size: 12px;
+            width: 70%;
+            outline: 0;
+            border: solid;
+            border-width: 0 0 2px;
+            border-color: black;
+        }
+
+        article.contact div#cder img{
+            width: 200%;
+            margin-left: -50px;
+        }
