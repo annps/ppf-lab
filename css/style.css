@@ -1,4 +1,6 @@
-
+header a.icon{
+    display: none;
+}
 /*BODY*/
     body{
         width: 100%;
@@ -40,7 +42,7 @@
         font-style: italic;
     }
 
-    li a:hover, h2 a:hover {
+    li a:hover, h2 a:hover, a.icon:hover {
         animation: change-color 0.5s infinite;
     }
                 @keyframes change-color {
@@ -88,7 +90,7 @@
             margin-top: 6px;
         }
 
-        header nav ul{
+        header nav ul, nav.burger ul{
             list-style: none;
             padding-right: 100px;
             padding-top: -75px;
@@ -509,7 +511,7 @@
             font-size: 20px;
         }
 
-        article.contact div#cizq form input[type=text], [type=email]{
+        article.contact div#cizq form textarea, input[type=text], [type=email]{
             font-size: 12px;
             width: 70%;
             outline: 0;
@@ -518,7 +520,86 @@
             border-color: black;
         }
 
+        article.contact div#cizq form textarea {
+            max-width: 70%;
+            max-height: 300px;
+        }
+
         article.contact div#cder img{
             width: 200%;
             margin-left: -50px;
         }
+
+
+
+                /*RESPONSIVE*/
+            @media (max-width:480px) {
+                html {
+                }
+
+                header a.icon{
+                    display:flex;
+                    color: white;
+                    float: right;
+                    margin: 40px 40px 0px;
+                    font-size: 30px;
+                }
+
+                header nav {
+                    background-color: black;
+                    height: 200px;
+                    margin-top: -50px;
+                    z-index: -10;
+                    position: sticky;
+                    float: none;
+                }
+
+                header nav ul {
+                    padding-top: 30px;
+                    margin-right: -70px;
+                }
+
+                header nav ul li {
+                    padding-bottom: 10px;
+                    float: none;
+                    font-size: 16px;
+                    text-align: right;
+                }
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                h2, h4 {
+                    font-size: 20px;
+                }
+
+                section#actions {
+                    width: 300px;
+                    height: 1550px;
+                    margin: 60px auto;
+                }
+
+                section#actions article.item {
+                    width: 300px;
+                }
+
+                section#actions article.item div.photo{
+                    height: 300px;
+                    width: 300px;
+                }
+
+                footer {
+                height: 300px;
+                width: 101%;
+                }
+
+                footer nav ul#big {
+                    width: 460px;
+                }
+
+                footer img {
+                    height: 50px;
+                    margin: 35px 30px;
+                }
+            }
