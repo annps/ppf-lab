@@ -5,12 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>𝗣𝗥𝗘𝗡𝗦𝗔 - 𝘔𝘪𝘮𝘦 𝘧𝘰𝘳 𝘢 𝘊𝘩𝘢𝘯𝘨𝘦 - ᴘᴘɢ</title>
         <link rel="stylesheet" id="ppg-webp-style" href="css/style.css" type="text/css" media="all"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
         <header>
             <a href="index.html"><img src="img/logo.png" title="Logo Powerpuff Girls" alt="Logo Powerpuff Girls" id="logo"></a>
-            <nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            <nav id="navegador">
                 <ul>
                     <li><a href="trama.html">TRAMA</a></li>
                     <li><a href="personajes.html">PERESONAJES</a></li>
@@ -21,8 +24,8 @@
             </nav>
         </header>
 
-        <article id="hero">
-            <section id="low">
+        <article class="hero" id="five">
+            <section id="pers">
                 <h3>PRENSA</h3>
                 <h2>Contemporánea</h2>
             </section>
@@ -30,22 +33,22 @@
 
         <side id="small">
             <article class="thumbnail">
-                <section class="thumb"></section>
+                <section class="thumb"><img src="img/prens/2015-head.png" alt="Escena película" title="Las chicas y el profesor Utonio"></section>
                 <section class="identity">
-                    <h4>Lorem Ipsum</h4>
-                    <h5>Juan Perez</h5>
-                    <p class="date">02/05/2001</p>
+                    <h4>Redefinieron de qué...</h4>
+                    <h5>Lenika Cruz</h5>
+                    <p class="date">21/02/2015</p>
                     <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
                         ut laoreet dolore magna aliquam erat volutpat.</dd>
                 </section>
             </article>
 
             <article class="thumbnail">
-                <section class="thumb"></section>
+                <section class="thumb"><img src="img/prens/2000-head.png" alt="Escena película" title="Las chicas volando por la ciudad en llamas"></section>
                 <section class="identity">
-                    <h4>Lorem Ipsum</h4>
-                    <h5>Juan Perez</h5>
-                    <p class="date">02/05/2001</p>
+                    <h4>Buen disfraz, chicos malos</h4>
+                    <h5>Megan<br>Rosenfeld</h5>
+                    <p class="date">26/12/2000</p>
                     <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
                         ut laoreet dolore magna aliquam erat volutpat.</dd>
                 </section>
@@ -54,85 +57,171 @@
 
         <article class="big">
             <section class="artichead">
+                <img src="img/prens/2015-head.png" alt="Escena película" title="Las chicas y el profesor Utonio">
             </section>
             <section class="artitle">
-                <h3>Lorem Ipsum</h3>
-                <p class="date">02/05/2001</p>
-                <h4>por Juan Perez</h4>
+                <h3>Las Chicas Superpoderosas redefinieron de qué están hechas las niñas pequeñas</h3>
+                <p class="date">21/02/2015</p>
+                <h4>por Lenika Cruz</h4>
             </section>
             <p class="artbod">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.<br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.<br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.<br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.<br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.
+                Translation types
+El mito de la creación de Las Chicas Superpoderosas se deriva de una canción infantil inglesa de casi 200 años
+ de antigüedad llamada “De qué están hechos los niños pequeños” (“Snips, snails, and puppy-dogs’ tails”, por 
+ si te lo estabas preguntando). La antigua referencia a "azúcar, especias y todo lo bueno" que se menciona en 
+ los créditos iniciales puede parecer adecuada casi 10 años después de que Cartoon Network cancelara el popular
+  programa. Después de todo, Las Chicas Superpoderosas se basó en una serie de tropos que pueden parecer un 
+  toque regresivo, aunque en su mayoría inofensivos, es decir, una ternura ocasionalmente empalagosa y 
+  elementos visuales estereotípicamente femeninos como corazones, flores y estrellas.<br>
+
+Pero el programa, que Cartoon Network confirmó que se reiniciará en 2016, dejó en claro que sus tres 
+superheroínas protagonistas no eran "las niñas perfectas" de la tradición, porque al crearlas en un 
+laboratorio, el padre/jefe, el profesor Utonium, agregó un ingrediente extra: Químico X. Este percance de 
+laboratorio no convirtió a las chicas en manchas sin forma (como sus villanos The Amoeba Boys); más bien, el 
+error les dio superpoderes. En otras palabras, eran mejores que las niñas perfectas.<br>
+
+Los niños en edad de escuela primaria como yo que vimos el programa a fines de la década de 1990 no lo vimos 
+como subversivo. No sabíamos que pasaría la prueba de Bechdel o que el creador, Craig McCracken, originalmente
+ había querido llamar a Buttercup "Bud". No sabíamos que el programa mantenía regularmente las calificaciones 
+ más altas entre las series originales de Cartoon Network para niños y adultos. Y, sin embargo, aquí había un 
+ programa para niños que logró atraer tanto a niños como a niñas sin borrar la palabra "Chicas" de su título. 
+ Incluso en los últimos años, los títulos de películas animadas protagonizadas por mujeres como Enredados y 
+ Frozen no ofrecen indicios de quiénes son sus protagonistas.<br>
+
+Mientras tanto, Las Chicas Superpoderosas tenían tres jóvenes superheroínas como protagonistas, algo que no se 
+ha replicado del todo en los populares programas de televisión animados para el grupo demográfico más joven 
+desde entonces. En el mundo de las películas de superhéroes de acción real, las mujeres todavía tienen que 
+lograr algo cercano a la paridad, y no hace falta mirar más allá de la nueva película de Wonder Woman para ver
+ cómo "sexy" y "fuerte" siguen en desacuerdo cuando trata de cómo el público piensa que las chicas con poderes
+  deben verse. Pero las Chicas Superpoderosas, con sus cabezas gigantes y sus cuerpos diminutos y diminutos, 
+  casi desafían a cualquiera a decir que no "lucen como" superhéroes. Y mientras que las superheroínas adultas
+   son sin excepción sexualizadas, Blossom, Bubbles y Buttercup no lo son porque, bueno, son niñas pequeñas. 
+   Que es quizás lo que hace que la feminidad tan promocionada del trío sea tan divergente: su sexualidad 
+   nunca tiene que definirlos. Incluso el tipo de marimacho a veces agresivo de Buttercups se normaliza dentro
+    del programa; su personalidad nunca se interpone por completo en el camino de ella para derrotar al malo
+     con sus hermanas más convencionalmente "femeninas".<br>
+
+     Al anunciar el reinicio del programa, Cartoon Network dijo que su lista actual de programas originales 
+     (en su mayoría dirigidos por niños) ayudó a consolidar su posición "como la cadena número 1 con niños de 
+     6 a 11 años, mientras que también vio aumentos de dos dígitos entre niñas de 6 a 11 años hasta 2014". Es 
+     apropiado y oportuno ahora que la cadena está reviviendo The Powerpuff Girls, con Nick Jennings de 
+     Adventure Time como productor ejecutivo. El inteligente y excepcionalmente divertido Adventure Time 
+     presenta dos protagonistas masculinos (bueno, un niño humano y un niño-perro), pero también presenta una 
+     variedad de personajes femeninos únicos: la angustiosa pero dura Vampire Marceline, la Valley Girl-esque 
+     Lumpy Space Princess , y la gobernante del Candy Kingdom, Princess Bubblegum. Estos personajes no carecen
+      de sus cualidades de género tradicionales, pero son parte de un mundo que es más matizado y consciente 
+      de sí mismo que el de Townsville.<br>
+     
+     Mientras Las Chicas Superpoderosas se prepara para renacer en una nueva década, para cierta generación de
+      sus jóvenes fans originales, su legado ya ha sido sellado. Dejando de lado los spin-offs, el 
+      merchandising y los futuros largometrajes, la serie demostró que no había una fórmula única para hacer a
+       la chica ideal y que, a veces, el mejor movimiento era mezclar algo extraño, indefinible y misterioso 
+       junto con los elementos más dulces.<br>
+
+     
+     
             </p>
         </article>
 
         <article class="big">
             <section class="artichead">
+                <img src="img/prens/2000-head.png" alt="Escena película" title="Las chicas volando por la ciudad en llamas">
             </section>
             <section class="artitle">
-                <h3>Lorem Ipsum</h3>
-                <p class="date">02/05/2001</p>
-                <h4>por Juan Perez</h4>
+                <h3>Chicas Superpoderosas: buen disfraz, chicos malos</h3>
+                <p class="date">26/12/2000</p>
+                <h4>por Megan Rosenfeld</h4>
             </section>
             <p class="artbod">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.<br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.<br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.<br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.<br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-                dolore te feugait nulla facilisi.
+Parecen moscas mutantes y suenan como los Ángeles de Charlie con helio. "¡Nadie invade la Tierra sin luchar!" 
+chilla Blossom, la pelirroja, mientras los tres niños de kindergarten de dibujos animados se preparan para 
+luchar contra un ejército invasor de extraterrestres disfrazados de brócoli.<br>
+
+"¡Tenemos que comerlos para vencerlos!" ellos lloran. Chomp chomp chomp.<br>
+
+¡Pow! ¡Blam! ¡Consigue esas malvadas cabezas de brócoli! Los otros niños de Townsville vierten salsa de queso 
+sobre los merodeadores y los mastican. ¡Esos malditos hipnotransmisores implantados en sus padres son 
+destruidos! ¡Adiós, chicos malos!<br>
+
+¡Una vez más el día es salvado por las Chicas Superpoderosas!<br>
+
+"Las Chicas Superpoderosas" es el último éxito de Cartoon Network que se infiltra en el efímero mercado 
+juvenil. Son grandes, muy grandes. Incluso si no está impresionado con su audiencia de más de 2 millones, o el
+ CD que estuvo en la cima de las listas tanto para niños como para universidades en Billboard, o las licencias
+  de merchandising que se espera recauden finalmente más de $350 millones, es posible que han encontrado una 
+  medida segura de su popularidad. En Halloween, las calles estaban llenas de pequeños imitadores que, cuando
+   se les preguntaba la identidad de su disfraz, confiaban: "Soy un Powewpuff Giwl".<br>
+
+A las adolescentes les gusta imitar las voces chirriantes de Bombón, Burbuja y Bellota, las bellezas que lucha
+ contra el crimen. Los universitarios aprecian los juegos de palabras y las alusiones a la cultura pop, como 
+ el episodio llamado "Boogie Frights" y el momento en que la gente de Townsville se vio obligada a bailar disco
+  hasta un agotamiento casi fatal. Y el público objetivo, los niños de 2 a 11 años, ha sorprendido a todos al 
+  ser predominantemente masculino.<br>
+
+Decir que las Superpoderosas son una respuesta feminista a los Power Rangers oa las Tortugas Ninja mutantes 
+adolescentes sería una exageración. No obstante, es inusual tener chicas en el asiento del superhéroe, 
+conduciendo la acción y echando la culpa. Un pequeño cambio en la cultura pop, quizás, pero digno de mención.<br>
+
+"Simplemente me gustó el contraste de los personajes lindos que son fuertes y duros", dice el creador Craig 
+McCracken, de 29 años. Él diseñó el espectáculo originalmente para su requisito cinematográfico en el 
+Instituto de las Artes de California. Llamó a la primera "The Whoop-[trasero] Girls", un nombre que se c
+ambió para la televisión en 1998. Si bien admite ser un tipo bastante liberal, con una familia artística y 
+una novia feminista, su inspiración fue simplemente para encuentre "una idea divertida" o 
+"un concepto genial", no para servir de modelos a seguir para una nueva generación.<br>
+
+La distribución por edades de la audiencia del programa se puede ver en la programación de Cartoon Network; hay 
+espectáculos de media hora la mayoría de los días desde la tarde hasta la noche. Debe suponer que la mayoría 
+de los niños de 5 años no están mirando, digamos, a las 11 p.m.<br>
+
+Según la historia, los tykettes fueron creados por el profesor Utonium, un ingeniero genético que quería 
+inventar tres niñas perfectas. A la receta tradicional de azúcar, especias y todo lo bueno, le agregó "Químico
+ X", que les otorga superpoderes como la capacidad de volar, ver con "visión microscópica" y dar una paliza 
+ con sus diminutos puños. ¡Pow! Asisten al jardín de infantes en la escuela primaria Pokey Oaks, pero siempre 
+ parecen ser llamados fuera de clase para luchar contra el mal. Los malos también son grandes estrellas: Mojo 
+ Jojo, Him, Roach Coach, Amoeba Boys y Fuzzy Lumpkins.<br>
+
+Cada una de las chicas tiene una identidad, pero es difícil para un novato distinguirlas. Blossom lleva un lazo
+ rojo y es la líder. Bubbles es rubio y tonto. Y Buttercup, la morena, es luchadora, una "luchadora rápida a la
+  que le gusta golpear primero y hacer preguntas después". Las historias tienden a desarrollarse rápidamente 
+  (cada una dura 11 minutos) y siempre terminan felizmente. Mantener a raya al mal no siempre se logra a través
+   de la violencia; a veces la astucia y la astucia juegan un papel.<br>
+
+La estética del diseño es un choque entre los colores primarios cegadores y los logotipos de corazones rosas, 
+algo así como Barbie viviendo en una gran caja de crayolas. Hay clichés de dibujos animados como dientes 
+perdidos y curitas en villanos y una cabeza cuadrada para el profesor Utonium, y bromas ligeramente 
+sofisticadas (un breve homenaje a "Spinal Tap" en un episodio, por ejemplo). Los inevitables sitios web que 
+discuten el PPG -como se les llama- proliferan, con reseñas de cada episodio, las evaluaciones contundentes de
+ los anónimos.<br>
+
+"Justo cuando pensabas que era seguro dejar de mirar, Craig y el equipo presentan dos nuevos y brillantes
+ episodios de Las Superpoderosas", escribió un corresponsal en Coldbacon.com. "Como la mayoría de las grandes
+  obras de arte, probablemente no lo apreciaremos realmente hasta después de que Craig muera".<br>
+
+El escritor elogió la secuencia del sueño en "Dream Scheme" como "un espectáculo de láser de rock de Pink 
+Floyd, 'Alicia en el país de las maravillas' y Alfred Hitchcock, todo en un rollo de frutas".<br>
+
+"No escribo para niños de 6 años", dice McCracken. "Escribo para mí". Por supuesto, continúa diciendo, la 
+mayoría de los dibujantes son niños de 6 años en el fondo.<br>
+
+También le gusta la música y se ha esforzado por casar el espectáculo con sonidos modernos. El CD 
+recopilatorio "Heroes & Villains" tiene música "inspirada" por las Chicas Superpoderosas, por Devo, las 
+Manzanas en Stereo y Bis. Además de su éxito en los mercados de niños y universitarios, Estuvo en lo más alto 
+de la lista de bandas sonoras de Billboard durante ocho semanas el verano pasado.<br>
+
+Siguiendo la tradición de los Rugrats, etc., una película de PPG ya está en proceso para estrenarse en 2002. 
+McCracken no quiere revelar gran parte de la trama. "Vuelve a las niñas pequeñas siendo superhéroes", dice. 
+"Puede haber una nueva audiencia por ahí que no tiene cable y no ha visto el programa".<br>
+
+Si los ha perdido antes, no podrá escapar de ellos por mucho tiempo. Delta Air Lines ha pintado a las Niñas en
+un ala de jet 737, y la cadena de restaurantes Subway ofreció una comida para niños PPG este otoño. Los 
+vertederos futuros contendrán acres de mochilas, ropa de cama, servilletas de cumpleaños y otros desperdicios 
+de PPG adornados con los ojos saltones de las Power Sisters. ¿Eso es inmortalidad o qué?<br>
+
+"Estoy 100 por ciento sorprendido por el éxito del programa", dijo McCracken. "Pensé que tal vez a los 
+universitarios les gustaría, que podría ser uno de esos éxitos de culto que años más tarde dirían: 'Oye, ¿te 
+acuerdas de las Chicas Superpoderosas?' Estoy en shock total".<br>
+
+
             </p>
         </article>
 
@@ -186,4 +275,15 @@
             <img src="img/logo.png" title="Logo Powerpuff Girls" alt="Logo Powerpuff Girls" id="logo">
         </footer>
     </body>
+    <script type="text/javascript">
+        function myFunction(){
+            let x = document.getElementById('navegador');
+            if (x.className !== 'responsive') {
+                x.className = 'responsive';
+            }
+            else {
+                x.className = '';
+            }
+        }
+    </script>
 </html>

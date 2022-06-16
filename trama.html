@@ -6,12 +6,15 @@
         <title>𝗧𝗥𝗔𝗠𝗔 - 𝘔𝘪𝘮𝘦 𝘧𝘰𝘳 𝘢 𝘊𝘩𝘢𝘯𝘨𝘦 - ᴘᴘɢ</title>
         <link rel="stylesheet" id="ppg-webp-style" href="css/style.css" type="text/css" media="all"/>
         <link href="css/lightbox.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
         <header>
             <a href="index.html"><img src="img/logo.png" title="Logo Powerpuff Girls" alt="Logo Powerpuff Girls" id="logo"></a>
-            <nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            <nav id="navegador">
                 <ul>
                     <li><a href="trama.html">TRAMA</a></li>
                     <li><a href="personajes.html">PERESONAJES</a></li>
@@ -22,8 +25,8 @@
             </nav>
         </header>
 
-        <article id="hero">
-            <section id="low">
+        <article class="hero" id="two">
+            <section id="pers">
                 <h3>TRAMA</h3>
                 <h2>MIME FOR A CHANGE</h2>
             </section>
@@ -34,7 +37,7 @@
         <article class="credits">
             <section class="para">
                 <p>Un derrame accidental de cloro convierte a Arcoíris el Payaso en el malévolo Mr. Mime, y él procede a 
-                    convertir Townsville en blanco y negro (y silencioso) y completamente muerto (excepto Burbúja, que ya 
+                    convertir Saltadilla en blanco y negro (y silencioso) y completamente muerto (excepto Burbúja, que ya 
                     está en color). La idea de un mundo sin color hace que las Chicas vean rojo, y antes de que él se dé 
                     cuenta, llegó la hora de su derrota. </p>
             </section>
@@ -106,4 +109,15 @@
         </footer>
         <script src="js/lightbox-plus-jquery.js"></script>
     </body>
+    <script type="text/javascript">
+        function myFunction(){
+            let x = document.getElementById('navegador');
+            if (x.className !== 'responsive') {
+                x.className = 'responsive';
+            }
+            else {
+                x.className = '';
+            }
+        }
+    </script>
 </html>

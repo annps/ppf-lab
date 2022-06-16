@@ -14,7 +14,7 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
-            <nav>
+            <nav id="navegador">
                 <ul>
                     <li><a href="trama.html">TRAMA</a></li>
                     <li><a href="personajes.html">PERESONAJES</a></li>
@@ -25,7 +25,7 @@
             </nav>
         </header>
 
-        <article id="hero">
+        <article class="hero" id="one">
             <section>
                 <h2>temporada 1 - episodio 11 bis</h2>
                 <h1>MIME FOR A CHANGE</h1>
@@ -33,25 +33,25 @@
         </article>
 
         <section id="actions">
-            <a href="personajes.html"><article class="item">
-                <div class="photo"><img src="img/perso.png"></div>
-                <h4>Personajes</h4>
-                <p>Lorem ipsum dolor sit amet, conecteur adipiscing elit.</p>
-            </article></a>
             <a href="trama.html"><article class="item">
                 <div class="photo"><img src="img/trama.png"></div>
                 <h4>Trama</h4>
-                <p>Lorem ipsum dolor sit amet, conecteur adipiscing elit.</p>
+                <p>Galería de imágenes. Sinópsis.</p>
             </article></a>
-            <a href="prensa.html"><article class="item">
-                <div class="photo"><img src="img/news.png"></div>
-                <h4>Prensa</h4>
-                <p>Lorem ipsum dolor sit amet, conecteur adipiscing elit.</p>
+            <a href="personajes.html"><article class="item">
+                <div class="photo"><img src="img/perso.png"></div>
+                <h4>Personajes</h4>
+                <p>Aquellos presentes en el episodio.</p>
             </article></a>
             <a href="creditos.html"><article class="item">
                 <div class="photo"><img src="img/creds.png"></div>
                 <h4>Créditos</h4>
-                <p>Lorem ipsum dolor sit amet, conecteur adipiscing elit.</p>
+                <p>Dirección, Doblaje y Música</p>
+            </article></a>
+            <a href="prensa.html"><article class="item">
+                <div class="photo"><img src="img/news.png"></div>
+                <h4>Prensa</h4>
+                <p>Publicaciones acerca de la serie.</p>
             </article></a>
         </section>
 
@@ -105,4 +105,15 @@
             <img src="img/logo.png" title="Logo Powerpuff Girls" alt="Logo Powerpuff Girls" id="logo">
         </footer>
     </body>
+    <script type="text/javascript">
+        function myFunction(){
+            let x = document.getElementById('navegador');
+            if (x.className !== 'responsive') {
+                x.className = 'responsive';
+            }
+            else {
+                x.className = '';
+            }
+        }
+    </script>
 </html>
